@@ -1,0 +1,100 @@
+:root{
+        --color-background: rgb(38, 50, 56);
+        --color-text-pri: #AABBC3;
+        --color-text-acc: #aeea00;
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+}
+body{
+    background-color: #fff;
+    background-color: var(--color-background);
+    color: var(--color-text-pri);
+    font-family: 'Exo 2', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+}
+main{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+    width: 100%;
+}
+a:hover{
+    color: var(--color-text-acc);
+    text-decoration: underline;
+}
+.search{
+    text-align: center;
+    padding: 50px;
+}
+.sbar{
+    width: 80%;
+    font-size: 25px;
+    padding: 5px;
+    background-color: var(--color-background);
+    border-top: none;
+    border-bottom: 2px solid var(--color-text-acc);
+    border-right: none;
+    border-left: 1px;
+    color: var(--color-text-acc);
+}
+.title-head{
+    text-transform: uppercase;
+    padding: 25px 0px;
+    color: var(--color-text-acc);   
+        font-size: 25px;
+}
+.appstore{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+.applist{
+    width: 22%;
+    padding: 8px;
+    margin: 15px 15px 0 15px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 2px rgba(29, 38, 43, 0.5);
+}
+.applist:hover{
+    box-shadow: 0 2px 5px var(--color-text-acc);
+}
+.bmlist{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.bmcat{
+text-transform: uppercase;
+}
+.siteList{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0PX;
+    
+}
+
+
+/*  
+ ignou & study
+
+    https://ignou.samarth.edu.in/index.php/site/login          
+    https://admissions.nic.in/IPUADM/Applicant/CommonProfile/Signup.aspx
+https://ipu.admissions.nic.in/
+
+                                   
+*/
