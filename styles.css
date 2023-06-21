@@ -16,8 +16,8 @@ body{
     background-color: var(--color-background);
     color: var(--color-text-pri);
     font-family: 'Exo 2', sans-serif;
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
 }
 main{
     width: 80%;
@@ -85,8 +85,19 @@ a:hover{
     text-align: center;
 }
 .bmcat{
-text-transform: uppercase;
-color: var(--color-text-acc);
+    text-transform: uppercase;
+    color: var(--color-text-acc);
+    max-height: 300px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.bmcat::-webkit-scrollbar{
+    display: contents;
+}
+.sticky{
+    position: sticky;
+    top: 10px;
 }
 .siteList{
     display: flex;
