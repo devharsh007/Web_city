@@ -9,6 +9,7 @@ var websites = [
         name: "Chat GPT"
     },{
         link: "www.youtube.com",
+        cat: "Browse",
         name: "Youtube"
     },{
         link: "https://www.codewars.com/",
@@ -69,7 +70,6 @@ var websites = [
     },{
         link: "https://www.tutorialspoint.com/",
         cat: "coding",
-        cat: "",
         name: "Tutorialspoint"
     },{
         link: "https://frontendmasters.com/",
@@ -116,118 +116,133 @@ var websites = [
         cat: "movies",
         name: "cataz"
     },{
-        link: "https://www2.solarmovie.cr/movie/https://pdfstop.com/category/harry-potter-1/",
+        link: "https://www2.solarmovie.cr",
         cat: "movies",
         name: "solarmovie"
     },{
-        link: "https://www.putlockers.do/movie/demolition-8084.html",
+        link: "https://www.putlockers.do",
         cat: "movies",
         name: "putlockers"
     },{
-        link: "https://www.limetorrents.lol/browse-torrents/Movies/",
-        cat: "movies",
+        link: "https://www.limetorrents.lol/",
+        cat: "torrent",
         name: "limetorrents"
     },{
-        link: "https://rarbgaccessed.org/torrents.php?r=99481836",
+        link: "https://rarbgaccessed.org/",
+        cat: "torrent",
         name: "rarbgaccessed"
     },{
-        link: "https://eztv.re/showlist/",
-        cat: "movies",
-        
-        name: ""
+        link: "https://eztv.re/",
+        cat: "movies",        
+        name: "EZTV"
     },{
         link: "https://yts.monster/",
         cat: "movies",
         name: "yts"
     },{
         link: "https://www.torlock.com/",
-        cat: "movies",
+        cat: "torrent",
         name: "torlock"
     },{
         link: "https://gtdb.cc/",
-        cat: "movies",
+        cat: "torrent",
         name: "gtdb"
     },{
         link: "https://katcr.to/",
-        cat: "movies",
+        cat: "torrent",
         name: "katcr"
     },{
         link: "https://torrentz2.nz/",
-        cat: "movies",
+        cat: "torrent",
         name: "torrentz2"
     },{
         link: "https://thepiratebay.org/index.html",
-        name: "thepiratebay"
-        cat: "movies",
+        name: "thepiratebay",
+        cat: "torrent",
     },{
         link: "https://1337x.to",
-        cat: "movies",
+        cat: "torrent",
         name: "1337x"
     },{
         link: "https://fitgirl-repacks.site/",
-        name: "fitgirl-repacks"
+        name: "torrent"
     },{
         link: "https://repack-mechanics.com/",
-        name: "rg-mechanics"
+        name: "rg-mechanics",
+        name: "torrent"
     },{
-        link: "https://www.shanaproject.com/series/10384/",
-        name: "shanaproject"
+        link: "https://www.shanaproject.com/",
+        name: "shanaproject",
+        name: "torrent"
     },{
         link: "https://www.kingauthor.net/",
         name: "kingauthor"
     },{
-        link: "https://archive.org/details/texts",
-        name: "archive.org"
+        link: "https://archive.org/",
+        name: "archive.org",
+        cat: "browse"
     },{
         link: "https://instapdf.in/",
-        
+        cat: "study",
         name: "instapdf"
     },{
         link: "https://www.pdfnotes.co/",
+        cat: "study",
         name: "pdfnotes"
     },{
         link: "https://givegita.com/bhagavad-gita ",
+        cat: "study",
         name: "givegita"
     },{
         link: "https://it-ebooks.info",
-        cat: "",
+        cat: "study",
         name: "it-ebooks"
     },{
         link: "https://www.pdfdrive.com/",
         name: "pdfdrive"
     },{
         link: "https://manybooks.net/",
+        cat: "study",
         name: "manybooks"
     },{
         link: "https://www.globalgreyebooks.com/index.html",
+        cat: "study",
         name: "globalgreyebooks"
     },{
         link: "https://epuborigin.com/",
+        cat: "study",
         name: "epuborigin"
     },{
         link: "https://crackingpatching.com",
+        cat: "soft",
         name: "crackingpatching"
     },{
         link: "https://www.photopea.com/",
+        cat: "soft",
         name: "photopea"
     },{
         link: "https://ask4pc.net/",
+        cat: "soft",
         name: "ask4pc"
     },{
         link: "https://piratepc.me/",
+        cat: "soft",
         name: "piratepc"
     },{
         link: "https://customstart.page/",
+        cat: "custom",
         name: "customstart"
     },{
         link: "https://fontawesome.com/",
+        cat: "custom",
         name: "fontawesome"
     },{
         link: "https://coolors.co/palettes/popular/black",
-        cat: "",
-olors"
+        cat: "custom",
+        name: "coolers"
     },{
         link: "https://icons.getbootstrap.com/",
+        cat: "custom",
         name: "bootstrap-icons"
     },{
         link: "",
