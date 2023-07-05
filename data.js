@@ -245,13 +245,13 @@ var websites = [
         cat: "custom",
         name: "bootstrap-icons"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://www.30dayscoding.com/roadmaps",
+        cat: "coding",
+        name: "30dayscoding"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://curiousdevelopers.in/curious-community-resources-hierarchy/",
+        cat: "coding",
+        name: "curiousdevelopers"
     },{
         link: "",
         cat: "",
