@@ -66,7 +66,7 @@ a:hover{
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-bottom: 15px;
-    font-size: 18px;
+    font-size: 20px;
 }
 .applist{
     width: 22%;
@@ -82,12 +82,15 @@ a:hover{
 .bmlist{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     font-size: 16px;
     text-align: center;
 }
 .bmcat{
     text-transform: uppercase;
     color: var(--color-text-acc);
+    display: flex;
+    flex-direction: row;
 }
 .bmcat::-webkit-scrollbar{
     display: contents;
@@ -95,27 +98,18 @@ a:hover{
 .sticky{
     position: sticky;
     top: 10px;
-=======
-text-transform: uppercase;
-color: var(--color-text-acc);
-height: 45vh;
-overflow-y: auto;
-scrollbar-width: none; /* Hide the scrollbar in Firefox */
-  -ms-overflow-style: none;
-}
-.bmcat::-webkit-scrollbar {
-  display: none; /* Hide the scrollbar in WebKit browsers (Chrome, Safari, etc.) */
+    text-transform: uppercase;
+    color: var(--color-text-acc);
+    margin-bottom: 50px;
 }
 .siteList{
-    display: flex;
-    flex-direction: column;
-    padding: 10px 0PX;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: start;
     color: var(--color-text-pri);
+    line-height: 30px;
 }
 .siteList a {
-    padding: 5px;
+    padding: 15px 20px;
 }
 /* For adding mobile view */
 @media (max-width: 767px){
