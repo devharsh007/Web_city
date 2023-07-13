@@ -10,6 +10,7 @@
 }
 html, body {
     width: 100%;
+    height: 100%;
 }
 body{
     background-color: #fff;
@@ -87,10 +88,6 @@ a:hover{
 .bmcat{
     text-transform: uppercase;
     color: var(--color-text-acc);
-    max-height: 300px;
-    overflow-y: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
 }
 .bmcat::-webkit-scrollbar{
     display: contents;
