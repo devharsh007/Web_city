@@ -95,6 +95,16 @@ a:hover{
 .sticky{
     position: sticky;
     top: 10px;
+=======
+text-transform: uppercase;
+color: var(--color-text-acc);
+height: 45vh;
+overflow-y: auto;
+scrollbar-width: none; /* Hide the scrollbar in Firefox */
+  -ms-overflow-style: none;
+}
+.bmcat::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar in WebKit browsers (Chrome, Safari, etc.) */
 }
 .siteList{
     display: flex;
