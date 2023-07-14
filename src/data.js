@@ -253,77 +253,77 @@ var websites = [
         cat: "coding",
         name: "curiousdevelopers"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://www.freepik.com/",
+        cat: "custom",
+        name: "Freepik"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://zerotomastery.io/",
+        cat: "coding",
+        name: "zerotomastery"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://www.codementor.io/",
+        cat: "coding",
+        name: "codementor"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://dailylogochallenge.com/",
+        cat: "coding",
+        name: "dailylogochallenge"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://threejs.org/",
+        cat: "coding",
+        name: "threejs"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://tutgator.com/tutorials/it-software/",
+        cat: "coding",
+        name: "tutgator"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://www.javascripttutorial.net/",
+        cat: "coding",
+        name: "javascripttutorial"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://www.freecoursesonline.me/?10",
+        cat: "edu",
+        name: "freecoursesonline"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://codedamn.com/dashboard",
+        cat: "coding",
+        name: "codedamn"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://1337x.unblockit.rsvp/home/",
+        cat: "torrent",
+        name: "1337x.unblockit"
     },{
-        link: "",
+        link: "https://up4pc.com/",
         cat: "",
-        name: ""
+        name: "up4pc"
     },{
-        link: "",
+        link: "https://getintopc.com/",
         cat: "",
-        name: ""
+        name: "getintopc"
     },{
-        link: "",
+        link: "https://piratepc.me/",
         cat: "",
-        name: ""
+        name: "piratepc"
     },{
-        link: "",
+        link: "https://free4pc.org/",
         cat: "",
-        name: ""
+        name: "free4pc"
     },{
-        link: "",
+        link: "https://www.svgbackgrounds.com/",
         cat: "",
-        name: ""
+        name: "svgbackgrounds"
     },{
-        link: "",
+        link: "https://pixabay.com/",
         cat: "",
-        name: ""
+        name: "pixabay"
     },{
-        link: "",
+        link: "https://www.svgrepo.com/",
         cat: "",
-        name: ""
+        name: "svgrepo"
     },{
-        link: "",
+        link: "https://www.flaticon.com/",
         cat: "",
-        name: ""
+        name: "flaticon"
     },{
         link: "",
         cat: "",
