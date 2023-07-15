@@ -325,17 +325,17 @@ var websites = [
         cat: "",
         name: "flaticon"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://tinywow.com/",
+        cat: "tool",
+        name: "tinywow"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://www.ilovepdf.com/",
+        cat: "tool",
+        name: "ilovepdf"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://onlinetools.com/",
+        cat: "tool",
+        name: "onlinetools"
     },{
         link: "",
         cat: "",
@@ -459,15 +459,22 @@ var websites = [
     },
 ]
 var list = document.querySelector("#list");
+var cat = document.querySelector("#catlist");
 
-function genData() {
-    //? filtering the websites to get the websites which have cat = coding
-    let search = websites.filter((x) => x.cat === "coding");
-    //? After filtering the data is set to content which makes it into a <a> attribbute
-    if (search.length > 0) {
-        //? Adding the data to content and adding the file into list 
-        let content = search.map((x) => `<a href="${x.link}">${x.name}</a>`).join("");
-        list.innerHTML = content;
-    }
+// function genData() {
+//     //? filtering the websites to get the websites which have cat = coding
+//     let search = websites.filter((x) => x.cat === "coding");
+//     //? After filtering the data is set to content which makes it into a <a> attribbute
+//     if (search.length > 0) {
+//         //? Adding the data to content and adding the file into list 
+//         let content = search.map((x) => `<a href="${x.link}">${x.name}</a>`).join("");
+//         list.innerHTML = content;
+//     }
+// }
+// genData();
+
+// ! I want to addd a cat list  using filter
+function listCat() {    let content = websites.map((x) => `<p>${x.cat}</p>`).join("");
+    cat.innerHTML = content;
 }
-genData();
+listCat();
