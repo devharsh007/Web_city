@@ -458,3 +458,16 @@ var websites = [
         name: ""
     },
 ]
+var list = document.querySelector("#list");
+
+function genData() {
+    //? filtering the websites to get the websites which have cat = coding
+    let search = websites.filter((x) => x.cat === "coding");
+    //? After filtering the data is set to content which makes it into a <a> attribbute
+    if (search.length > 0) {
+        //? Adding the data to content and adding the file into list 
+        let content = search.map((x) => `<a href="${x.link}">${x.name}</a>`).join("");
+        list.innerHTML = content;
+    }
+}
+genData();
