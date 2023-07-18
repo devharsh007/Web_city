@@ -67,12 +67,18 @@ a:hover{
     padding-bottom: 15px;
     font-size: 20px;
 }
+.appstore a{
+    display: flex;
+}
+.appstore a:hover{
+    text-decoration: none;
+}
 .applist{
-    width: 22%;
-    padding: 8px;
+    width: 20%;
+    padding: 10px;
     margin: 15px 15px 0 15px;
     border-radius: 7px;
-    box-shadow: 2px 2px 2px 2px rgba(29, 38, 43, 0.5);
+    box-shadow: 4px 3px 3px 3px rgba(29, 38, 43, 0.5);
     
 }
 .applist:hover{
@@ -86,9 +92,10 @@ a:hover{
     text-align: center;
 }
 .bmcat{
+    font-size: 20px;
     padding: 10px;
     text-transform: uppercase;
-    color: var(--color-text-acc);
+    color: var(--co lor-text-acc);
     display: flex;
     flex-direction: row;
 }
@@ -107,12 +114,17 @@ a:hover{
     text-align: start;
     color: var(--color-text-pri);
     line-height: 30px;
+    font-size: 17px;
 }
 .siteList a {
     padding: 15px 20px;
 }
-
-
+.foot{
+    display: flex;
+    justify-content: space-between;
+        padding-top: 10px;
+        font-size: 17px;
+}
 
 /* For adding mobile view */
 @media (max-width: 767px){

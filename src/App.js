@@ -2,10 +2,12 @@ var list = document.querySelector("#bmlist");
 var cat = document.querySelector("#catlist");
 var main = document.querySelector(".bmlist");
 var catName = document.querySelector("#catName");
+var appStore = document.querySelector("#appstore");
 
-import {
-    websites
-} from './data.js';
+import {websites} from './data.js';
+import { favs } from './favapps.js';
+
+// Function for generating Bookmarks
 let genPage = () => {
     let catlist = filterCategory();
     main.innerHTML = catlist.map((x) => `
@@ -17,10 +19,7 @@ let genPage = () => {
     <hr>
     `).join("");
 };
-
 genPage();
-
-
 
 // Function to filter website categories
 function filterCategory() {
@@ -39,3 +38,17 @@ function filteredWebsites(cat) {
     };
     return printWeb();
 }
+
+favs.map((x) => console.log(x));
+// Function for generating Fav Applications
+function favAppGen() {
+    return (appStore.innerHTML= favs.map((x) => {
+        let { name, link } = x;
+        return  `
+        <a class="applist" href="${x.link}">
+            ${x.name}
+        </a>
+        `
+    }).join(""));
+}
+favAppGen();
