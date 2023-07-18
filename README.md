@@ -7,6 +7,6 @@ Please keep the website clean and informative.
 Sorry for the inconvenence. But the contributions hasn't been started. I will start contributions.
 
 ## Links
-<a href="https://devharsh007.github.io/mycustomHomePage/">Website</a>  
+<a href="https://devharsh007.github.io/Web_city/">Website</a>  
 <a href="https://github.com/devharsh007">My Github</a>  <br>
 Any new ideas pls share with me on my <a href="https://t.me/Harsharmaa">Telegram</a>

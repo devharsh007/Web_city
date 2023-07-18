@@ -93,7 +93,7 @@ a:hover{
 }
 .bmcat{
     font-size: 20px;
-    padding: 10px;
+    padding-top: 10px;
     text-transform: uppercase;
     color: var(--co lor-text-acc);
     display: flex;
@@ -107,7 +107,8 @@ a:hover{
     top: 10px;
     text-transform: uppercase;
     color: var(--color-text-acc);
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    min-width: 100px;
 }
 .siteList{
     text-transform: uppercase;
@@ -122,39 +123,64 @@ a:hover{
 .foot{
     display: flex;
     justify-content: space-between;
-        padding-top: 10px;
-        font-size: 17px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+
+/* For adding Tablet view */
+@media (max-width: 1000px){
+    .appstore{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+    font-size: 20px;
+    }
 }
 
 /* For adding mobile view */
-@media (max-width: 767px){
-.search{
+@media (max-width: 600px){
+    .search{
     padding: none;
-}
-.sbar {
+    }
+    .sbar {
     width: 100%;
-}
-.applist {
+    }
+    .applist {
     width: 92%;
-}
-.bmlist {
-flex-direction: column;
-}
-.bmlist{
-padding: 10px;
-align-items: start;
-}
-.bmcat{
-padding: 5px;
-margin: 5px auto;
-width: 80%;
-box-shadow: 2px 2px 2px 2px rgba(29, 38, 43, 0.5);
-}
-.siteList a{
+    max-width: 300px;
+    }
+    .bmlist {
+    flex-direction: column;
+    }
+    .bmlist{
+    padding: 10px;
+    align-items: start;
+    }
+    .bmcat{
+    padding: 5px;
+    margin: 5px auto;
+    width: 80%;
+    box-shadow: 2px 2px 2px 2px rgba(29, 38, 43, 0.5);
+    }
+    .siteList a{
     display: inline-block;
-    padding: 3px;
+    padding: 2px 20px;
+
+    }
+    .bmcat{
+    flex-direction: column;
+    }
+    .sticky{
+    margin-bottom: 20px;
+    }
+    .foot{
+    display: inline;
+    }
 }
-}
+
 
 
 
