@@ -14,7 +14,7 @@ export var favs = [
     },{
         link: "https://frontendmasters.com/",
         cat: "coding",
-        name: "Frontend Masters"
+        name: "FrontendMasters"
     },{
         link: "https://developer.mozilla.org/en-US/",
         cat: "coding",
