@@ -58,14 +58,25 @@ a:hover{
     color: var(--color-text-acc);   
     font-size: 25px;
 }
-.appstore{
+/* .appstore{
     width: 90%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(4,);
     padding-bottom: 15px;
     font-size: 20px;
+} */
+.appstore {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Display 4 items per row in desktop view */
+  grid-gap: 20px; /* Add some gap between grid items */
+  padding-bottom: 15px;
+  font-size: 20px;
 }
 .appstore a{
     display: flex;
@@ -74,7 +85,6 @@ a:hover{
     text-decoration: none;
 }
 .applist{
-    width: 22%;
     padding: 10px;
     margin: 15px 15px 0 15px;
     border-radius: 7px;
@@ -127,17 +137,17 @@ a:hover{
     font-size: 17px;
 }
 
+@media (max-width: 1200px){
+    .appstore {
+    grid-template-columns: repeat(3, 1fr); /* Display 3 items per row in tablet view */
+  }
+}
+
 /* For adding Tablet view */
-@media (max-width: 1000px){
-    .appstore{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-bottom: 15px;
-    font-size: 20px;
-    }
+@media (max-width: 900px){
+    .appstore {
+    grid-template-columns: repeat(2, 1fr); /* Display 2 items per row in tablet view */
+  }
 }
 
 /* For adding mobile view */
@@ -147,10 +157,6 @@ a:hover{
     }
     .sbar {
     width: 100%;
-    }
-    .applist {
-    width: 92%;
-    max-width: 300px;
     }
     .bmlist {
     flex-direction: column;
@@ -179,20 +185,7 @@ a:hover{
     .foot{
     display: inline;
     }
+    .appstore {
+    grid-template-columns: repeat(1, 1fr); /* Display 1 item per row in mobile view */
+  }
 }
-
-
-
-
-
-
-
-/*  
- ignou & study
-
-    https://ignou.samarth.edu.in/index.php/site/login          
-    https://admissions.nic.in/IPUADM/Applicant/CommonProfile/Signup.aspx
-https://ipu.admissions.nic.in/
-
-                                   
-*/
