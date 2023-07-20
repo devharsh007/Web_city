@@ -1,12 +1,13 @@
 # <p align="center"> Web_City ✅</p>
 
+## Have some fav websites? Show them to others
 - Web_City is an open-source project to help users find all useful content on internet.
 - It has all necessary webpages which can be useful for internet Geeks.
 - Feel free to use the webpage and do add your fav websites too.
 - Please keep the website clean and informative.
 
 ## How to Contribute to this project
-Sorry for the inconvenence. But the contributions hasn't been started. I will start contributions.
+The contributions hasn't been started. I will start contributions. Sorry for the inconvenence
 
 ## Links
  Link for <a href="https://devharsh007.github.io/Web_city/">Website</a>
