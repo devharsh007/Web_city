@@ -1,6 +1,6 @@
 # <p align="center"> Web_City ✅</p>
 
-- Web_City is an open-source project to help users find all useful content on internet.
+- Web_City is an open-source project to help users find all useful content on internet 
 - It has all necessary webpages which can be useful for internet Geeks.
 - Feel free to use the webpage and do add your fav websites too.
 - Please keep the website clean and informative.
