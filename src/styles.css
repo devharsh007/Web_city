@@ -129,6 +129,7 @@ a:hover{
     font-size: 17px;
 }
 
+/* For adding Tablet Wide view */
 @media (max-width: 1200px){
     .appstore {
     grid-template-columns: repeat(3, 1fr); /* Display 3 items per row in tablet view */
