@@ -1,4 +1,3 @@
-Sure! Here's an updated version of the README.md file with added steps for contributing to the project:
 
 # My Websites - Personalized Bookmarks and Favorite Applications
 
