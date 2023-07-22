@@ -16,7 +16,9 @@ This project is a simple webpage that allows users to store and access their fav
 
 ## Description
 
-The "My Websites" project is a personal webpage designed to keep track of frequently visited websites and favorite applications. Users can access their bookmarks categorized by different topics and view their favorite applications all in one place. The webpage is responsive and optimized for desktop and mobile devices.
+- The "My Websites" project is a personal webpage designed to keep track of frequently visited websites and favorite applications. 
+- Users can access their bookmarks categorized by different topics and view their favorite applications all in one place. 
+- The webpage is responsive and optimized for desktop and mobile devices.
 
 ## Features
 
