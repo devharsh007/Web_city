@@ -3,6 +3,34 @@ export var websites = [
         link: "https://github.com/",
         cat: "coding",
         name: "Github"
+    },{
+        link: "https://www.bing.com/search?q=cricket+live+scores&form=CPWA",
+        cat: "AI",
+        name: "Bing"
+    },{
+        link: "https://github.com/zero-to-mastery/complete-web-developer-manual#01",
+        cat: "Courses",
+        name: "zero-to-mastery"
+    },{
+        link: "",
+        cat: "",
+        name: ""
+    },{
+        link: "",
+        cat: "",
+        name: ""
+    },{
+        link: "",
+        cat: "",
+        name: ""
+    },{
+        link: "",
+        cat: "",
+        name: ""
+    },{
+        link: "",
+        cat: "",
+        name: ""
     },
     {
         link: "https://chat.openai.com/",
