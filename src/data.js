@@ -12,9 +12,9 @@ export var websites = [
         cat: "Courses",
         name: "zero-to-mastery"
     },{
-        link: "",
-        cat: "",
-        name: ""
+        link: "https://www.100jsprojects.com/",
+        cat: "Courses",
+        name: "100jsprojects"
     },{
         link: "",
         cat: "",
