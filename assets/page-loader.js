@@ -146,8 +146,4 @@ searchInput.addEventListener('input', (event) => {
 
 
   
-// ! Problems
-// 1) All websites should be shown while default page load 
-// 2) Need to add themes to this websites 
-// 3) Need to add a online website add service to this page  
-// 4) Create a local enovriment for custom setup of this website for local users
+
