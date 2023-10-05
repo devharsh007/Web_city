@@ -40,6 +40,7 @@ function filteredWebsites(cat) {
 }
 
 favs.map((x) => console.log(x));
+
 // Function for generating Fav Applications
 function favAppGen() {
     return (appStore.innerHTML= favs.map((x) => {
