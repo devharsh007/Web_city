@@ -1,32 +1,21 @@
-javascript
-document.getElementById('website-form').addEventListener('submit', function(event) {
- event.preventDefault();
+const FormAddBtn = document.getElementById("website-add-btn");
+const closeBtn = document.getElementById("closeBtn");
+const submitBtn = document.getElementById("submit-btn");
+const addingForm = document.getElementById("addingForm");
+const formPrompt = document.getElementById("form-prompt");
 
- var websiteName = document.getElementById('website-name').value;
- var websiteLink = document.getElementById('website-link').value;
- var websiteCategory = document.getElementById('website-category').value;
 
- fetch('/submit-website', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      name: websiteName,
-      link: websiteLink,
-      category: websiteCategory
-    })
- })
- .then(response => response.json())
- .then(data => {
-    if (data.success) {
-      alert('Website added successfully!');
-    } else {
-      alert('Failed to add website. Please try again.');
-    }
- })
- .catch(error => {
-    console.error('Error:', error);
-    alert('Failed to add website. Please try again.');
- });
-});
+// Adding hidden class while window load
+window.addEventListener("load", function () {
+    addingForm.classList.toggle("hidden");
+})
+// toggle the classes
+FormAddBtn.addEventListener("click", displayRender);
+closeBtn.addEventListener("click", displayRender);
+// fucntion to toggle the classes
+function displayRender() {
+    // Swap the "hidden" class between addingForm and formPrompt
+    addingForm.classList.toggle("hidden");
+    formPrompt.classList.toggle("hidden");
+    console.log("Adding Form is toggled");
+}
