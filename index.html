@@ -3,29 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage</title>
-    <link rel="stylesheet" href="src/styles.css">
+    <title>Web City</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
-<body>
-        <main>
-        <form class="search" action="https://search.brave.com/search" method="get" target="_blank">
-            <input class="sbar" type="text" name="q" placeholder="Search with Brave" onkeydown="return handleKeyDown(event);">
-        </form>
-        <h3 class="title-head">Applications</h3>
-        <div class="appstore" id="appstore">
-            
+<body >
+    <main>
+    <!-- <div id="web-add-form">
+        <div id="form-prompt">
+            <p>Need to add Website? 
+                <button id="website-add-btn">Click here</button>
+            </p>
         </div>
-        <h3 class="title-head">Bookmarks</h3>
-        <div class="bmlist">
-        </div>  
-        <footer class="foot">
-            <div class="foot-left">
-                <p>*All websites are added for information only. No rights reserved.</p>
-            </div>
-            <div class="foot-right">
-                <a href="https://github.com/devharsh007">@Harsh Sharma</a>
-            </div>
-        </footer>
-        </body>
-        <script src="src/App.js" type="module"></script>
+        <div id="addingForm" >
+            <button id="closeBtn">X</button>
+            <form id="website-form">
+                <label for="website-name">Website Name:</label><br>
+                <input type="text" id="website-name" name="website-name" required><br>
+                <label for="website-link">Website Link:</label><br>
+                <input type="url" id="website-link" name="website-link" required><br>
+                <label for="website-category">Website Category:</label><br>
+                <input type="text" id="website-category" name="website-category" required><br>
+                <input id="submit-btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </div> -->
+    <header>
+        <div id="s-bar">
+            <form class="search" action="https://search.brave.com/search" method="get" target="_blank">
+                <input class="sbar" type="text" name="q" placeholder="Search with Brave" autocomplete="off" onkeydown="return handleKeyDown(event);">
+            </form>
+        </div>
+        <div id="date-bar">date Bar</div>
+        <div id="greet-bar">Greet Bar</div>
+    </header>
+    <section>
+        <div class="app-bar">
+        <ul id="filteredCat"></ul>
+        <!-- Category links will be displayed here -->
+        </div>
+        <div class="bookmarks-bar">
+             <ul id="category-links">
+            <!-- Websites links will be displayed here -->
+            </ul>
+        </div>
+    </section>
+    <script type="module" src="assets/page-loader.js"></script>
+    <script src="Form/form.js"></script>
+    </main>
+</body>
 </html>

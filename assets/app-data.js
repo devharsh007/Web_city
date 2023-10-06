@@ -1,54 +1,9 @@
 export var websites = [
+    // Coding-related websites
     {
         link: "https://github.com/",
         cat: "coding",
         name: "Github"
-    },
-    {
-        link: "https://www.bing.com/search?q=cricket+live+scores&form=CPWA",
-        cat: "AI",
-        name: "Bing"
-    },
-    {
-        link: "https://github.com/zero-to-mastery/complete-web-developer-manual#01",
-        cat: "Courses",
-        name: "zero-to-mastery"
-    },
-    {
-        link: "https://www.100jsprojects.com/",
-        cat: "Courses",
-        name: "100jsprojects"
-    },
-    // Left for adding new sites
-    // {
-    //     link: "",
-    //     cat: "",
-    //     name: ""
-    // },
-    // {
-    //     link: "",
-    //     cat: "",
-    //     name: ""
-    // },
-    // {
-    //     link: "",
-    //     cat: "",
-    //     name: ""
-    // },
-    // {
-    //     link: "",
-    //     cat: "",
-    //     name: ""
-    // },
-    {
-        link: "https://chat.openai.com/",
-        cat: "coding",
-        name: "Chat GPT"
-    },
-    {
-        link: "https://www.youtube.com",
-        cat: "browse",
-        name: "Youtube"
     },
     {
         link: "https://www.codewars.com/",
@@ -86,11 +41,6 @@ export var websites = [
         name: "HackerRank"
     },
     {
-        link: "https://www.codewars.com",
-        cat: "coding",
-        name: "CodeWars"
-    },
-    {
         link: "https://www.codecademy.com/",
         cat: "coding",
         name: "CodeAcademy"
@@ -121,55 +71,117 @@ export var websites = [
         name: "JavaScript 30"
     },
     {
+        link: "https://tutgator.com/tutorials/it-software/",
+        cat: "coding",
+        name: "Tutgator"
+    },
+    {
+        link: "https://johnsmilga.com/",
+        cat: "coding",
+        name: "John Smilga"
+    },
+    {
+        link: "https://www.codewars.com/",
+        cat: "coding",
+        name: "CodeWars"
+    },
+    {
         link: "https://www.codecademy.com/",
         cat: "coding",
         name: "CodeAcademy"
     },
     {
-        link: "https://www.tutorialspoint.com/",
+        link: "https://codedamn.com/dashboard",
         cat: "coding",
-        name: "Tutorials point"
+        name: "codedamn"
     },
     {
-        link: "https://frontendmasters.com/",
+        link: "https://www.javascripttutorial.net/",
         cat: "coding",
-        name: "Frontend Masters"
+        name: "JavaScript Tutorial"
     },
     {
-        link: "https://codepen.io/your-work/",
+        link: "https://www.30dayscoding.com/",
         cat: "coding",
-        name: "Codepen"
+        name: "30 Days Coding"
     },
     {
-        link: "https://wemakedevs.org/",
+        link: "https://curiousdevelopers.in/",
         cat: "coding",
-        name: "WeMakeDevs"
+        name: "Curious Developers"
     },
     {
-        link: "https://www.hackerrank.com/",
+        link: "https://zerotomastery.io/",
         cat: "coding",
-        name: "Hackerrank"
+        name: "Zero to Mastery"
     },
     {
-        link: "https://johnsmilga.com/",
+        link: "https://www.codementor.io/",
         cat: "coding",
-        name: "Johnsmilga"
+        name: "CodeMentor"
     },
     {
-        link: "https://www.codewars.com/",
+        link: "https://dailylogochallenge.com/",
         cat: "coding",
-        name: "codewars"
+        name: "Daily Logo Challenge"
     },
     {
-        link: "https://roadmap.sh",
+        link: "https://threejs.org/",
         cat: "coding",
-        name: "Raodmap.sh"
+        name: "Three.js"
     },
     {
-        link: "https: //www.theodinproject.com/paths/full-stack-javascript?",
+        link: "https://javascript30.com/",
         cat: "coding",
-        name: "the odin project"
+        name: "JavaScript 30"
     },
+    {
+        link: "https://hacksnation.com/",
+        cat: "coding",
+        name: "hacksnation"
+    },
+    {
+        link: "https://vitejs.dev/",
+        cat: "coding",
+        name: "vite"
+    },
+    {
+        link: "https://scrimba.com/bootcamp",
+        cat: "coding",
+        name: "scrimba"
+    },
+    {
+        link: "https://app.netlify.com/teams/devharsh007/overview",
+        cat: "coding",
+        name: "app.netlify"
+    },
+
+    // AI-related websites
+    {
+        link: "https://www.bing.com/search?q=cricket+live+scores&form=CPWA",
+        cat: "AI",
+        name: "Bing"
+    },
+    {
+        link: "https://chat.openai.com/",
+        cat: "AI",
+        name: "Chat GPT"
+    },
+    {
+        link: "https://www.useblackbox.io/chat",
+        cat: "AI",
+        name: "BlackBox AI"
+    },
+
+    // Browse-related websites
+    {
+        link: "https://www.youtube.com",
+        cat: "browse",
+        name: "Youtube"
+    },
+    
+
+    // Movies-related websites
     {
         link: "https://fmoviesto.tv/",
         cat: "movies",
@@ -178,307 +190,258 @@ export var websites = [
     {
         link: "https://www9.123moviesto.to/",
         cat: "movies",
-        name: "123moviesto"
+        name: "123Movies"
     },
     {
         link: "https://cataz.net/",
         cat: "movies",
-        name: "cataz"
+        name: "Cataz"
     },
     {
         link: "https://www2.solarmovie.cr",
         cat: "movies",
-        name: "solarmovie"
+        name: "SolarMovie"
     },
     {
         link: "https://www.putlockers.do",
         cat: "movies",
-        name: "putlockers"
+        name: "Putlockers"
     },
+    {
+        link: "https://animesuge.to/home",
+        cat: "movies",
+        name: "animesuge.to"
+    },
+    {
+        link: "https://aniwatch.to/",
+        cat: "movies",
+        name: "aniwatch.to"
+    },
+    {
+        link: "https://mangaplus.shueisha.co.jp/updates",
+        cat: "movies",
+        name: "mangaplus.shueisha"
+    },
+
+    // Torrent-related websites
     {
         link: "https://www.limetorrents.lol/",
         cat: "torrent",
-        name: "limetorrents"
+        name: "LimeTorrents"
     },
     {
         link: "https://rarbgaccessed.org/",
         cat: "torrent",
-        name: "rarbgaccessed"
+        name: "RARBG"
     },
     {
         link: "https://eztv.re/",
-        cat: "movies",        
+        cat: "torrent",
         name: "EZTV"
     },
     {
         link: "https://yts.monster/",
-        cat: "movies",
-        name: "yts"
+        cat: "torrent",
+        name: "YTS"
     },
     {
         link: "https://www.torlock.com/",
         cat: "torrent",
-        name: "torlock"
+        name: "TorLock"
     },
     {
         link: "https://gtdb.cc/",
         cat: "torrent",
-        name: "gtdb"
+        name: "GTDB"
     },
     {
         link: "https://katcr.to/",
         cat: "torrent",
-        name: "katcr"
+        name: "KATCR"
     },
     {
         link: "https://torrentz2.nz/",
         cat: "torrent",
-        name: "torrentz2"
+        name: "Torrentz2"
     },
     {
         link: "https://thepiratebay.org/index.html",
         cat: "torrent",
-        name: "the pirate bay",
+        name: "The Pirate Bay"
     },
     {
         link: "https://1337x.to",
         cat: "torrent",
         name: "1337x"
     },
+
+    // Games-related websites
     {
         link: "https://fitgirl-repacks.site/",
         cat: "games",
-        name: "torrent"
+        name: "FitGirl Repacks"
     },
     {
         link: "https://repack-mechanics.com/",
         cat: "games",
-        name: "rg-mechanics",
+        name: "Repack Mechanics"
     },
     {
         link: "https://www.shanaproject.com/",
         cat: "games",
-        name: "shanaproject",
+        name: "ShanaProject"
     },
+
+    // Study-related websites
     {
         link: "https://www.kingauthor.net/",
         cat: "study",
-        name: "kingauthor"
+        name: "KingAuthor"
     },
     {
         link: "https://archive.org/",
-        name: "archive.org",
-        cat: "browse"
+        cat: "study",
+        name: "Archive.org"
     },
     {
         link: "https://instapdf.in/",
         cat: "study",
-        name: "instapdf"
+        name: "InstaPDF"
     },
     {
         link: "https://www.pdfnotes.co/",
         cat: "study",
-        name: "pdfnotes"
+        name: "PDFNotes"
     },
     {
         link: "https://givegita.com/",
         cat: "study",
-        name: "givegita"
+        name: "GiveGita"
     },
     {
         link: "https://it-ebooks.info",
         cat: "study",
-        name: "it-ebooks"
+        name: "IT-Ebooks"
     },
     {
         link: "https://www.pdfdrive.com/",
         cat: "study",
-        name: "pdfdrive"
+        name: "PDFDrive"
     },
     {
         link: "https://manybooks.net/",
         cat: "study",
-        name: "manybooks"
+        name: "ManyBooks"
     },
     {
         link: "https://www.globalgreyebooks.com/index.html",
         cat: "study",
-        name: "global grey ebooks"
+        name: "Global Grey Ebooks"
     },
     {
         link: "https://epuborigin.com/",
         cat: "study",
-        name: "epub origin"
+        name: "Epub Origin"
     },
+    {
+        link: "https://pll.harvard.edu/",
+        cat: "study",
+        name: "harvard.edu"
+    },
+
+    // Softwares-related websites
     {
         link: "https://crackingpatching.com",
         cat: "softwares",
-        name: "crackingpatching"
+        name: "CrackingPatching"
     },
     {
         link: "https://www.photopea.com/",
         cat: "softwares",
-        name: "photopea"
+        name: "Photopea"
     },
     {
         link: "https://ask4pc.net/",
         cat: "softwares",
-        name: "ask4pc"
+        name: "Ask4pc"
     },
     {
         link: "https://piratepc.me/",
         cat: "softwares",
-        name: "piratepc"
-    },
-    {
-        link: "https://customstart.page/",
-        cat: "design",
-        name: "customstart"
-    },
-    {
-        link: "https://fontawesome.com/",
-        cat: "design",
-        name: "fontawesome"
-    },
-    {
-        link: "https://coolors.co/",
-        cat: "design",
-        name: "coolers"
-    },
-    {
-        link: "https://icons.getbootstrap.com/",
-        cat: "design",
-        name: "bootstrap-icons"
-    },
-    {
-        link: "https://www.30dayscoding.com/",
-        cat: "coding",
-        name: "30 days coding"
-    },
-    {
-        link: "https://curiousdevelopers.in/",
-        cat: "coding",
-        name: "curious developers"
-    },
-    {
-        link: "https://www.freepik.com/",
-        cat: "design",
-        name: "Freepik"
-    },
-    {
-        link: "https://zerotomastery.io/",
-        cat: "coding",
-        name: "zerotomastery"
-    },
-    {
-        link: "https://www.codementor.io/",
-        cat: "coding",
-        name: "codementor"
-    },
-    {
-        link: "https://dailylogochallenge.com/",
-        cat: "coding",
-        name: "daily logo challenge"
-    },
-    {
-        link: "https://threejs.org/",
-        cat: "coding",
-        name: "three js"
-    },
-    {
-        link: "https://tutgator.com/tutorials/it-software/",
-        cat: "coding",
-        name: "tutgator"
-    },
-    {
-        link: "https://www.javascripttutorial.net/",
-        cat: "coding",
-        name: "javascript tutorial"
-    },
-    {
-        link: "https://www.freecoursesonline.me/?10",
-        cat: "study",
-        name: "free courses online"
-    },
-    {
-        link: "https://codedamn.com/dashboard",
-        cat: "coding",
-        name: "codedamn"
-    },
-    {
-        link: "https://1337x.unblockit.rsvp/home/",
-        cat: "torrent",
-        name: "1337x.unblockit"
+        name: "PiratePC"
     },
     {
         link: "https://up4pc.com/",
         cat: "softwares",
-        name: "up4pc"
+        name: "Up4PC"
     },
     {
         link: "https://getintopc.com/",
         cat: "softwares",
-        name: "getintopc"
+        name: "GetIntoPC"
     },
+
+    // Design-related websites
     {
-        link: "https://piratepc.me/",
-        cat: "softwares",
-        name: "piratepc"
-    },
-    {
-        link: "https://free4pc.org/",
-        cat: "softwares",
-        name: "free4pc"
-    },
-    {
-        link: "https://www.svgbackgrounds.com/",
+        link: "https://customstart.page/",
         cat: "design",
-        name: "svg backgrounds"
+        name: "CustomStart"
+    },
+    {
+        link: "https://fontawesome.com/",
+        cat: "design",
+        name: "FontAwesome"
+    },
+    {
+        link: "https://coolors.co/",
+        cat: "design",
+        name: "Coolors"
+    },
+    {
+        link: "https://icons.getbootstrap.com/",
+        cat: "design",
+        name: "Bootstrap Icons"
     },
     {
         link: "https://pixabay.com/",
         cat: "design",
-        name: "pixabay"
+        name: "Pixabay"
     },
     {
         link: "https://www.svgrepo.com/",
         cat: "design",
-        name: "svgrepo"
+        name: "SVGRepo"
     },
     {
         link: "https://www.flaticon.com/",
         cat: "design",
-        name: "flaticon"
+        name: "Flaticon"
     },
+    {
+        link: "https://css-tricks.com/",
+        cat: "design",
+        name: "CSS-Tricks"
+    },
+    {
+        link: "https://iconify.design/",
+        cat: "design",
+        name: "Iconify.design"
+    },
+
+    // Tool-related websites
     {
         link: "https://tinywow.com/",
         cat: "tool",
-        name: "tinywow"
+        name: "TinyWow"
     },
     {
         link: "https://www.ilovepdf.com/",
         cat: "tool",
-        name: "ilovepdf"
+        name: "ILovePDF"
     },
     {
         link: "https://onlinetools.com/",
         cat: "tool",
-        name: "onlinetools"
-    },
-    {
-        link: "",
-        cat: "",
-        name: ""
-    },
-    {
-        link: "",
-        cat: "",
-        name: ""
-    },
-    {
-        link: "",
-        cat: "",
-        name: ""
-    },
-]
-
+        name: "OnlineTools"
+    }
+];
