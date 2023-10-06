@@ -140,6 +140,21 @@ export var websites = [
         cat: "coding",
         name: "hacksnation"
     },
+    {
+        link: "https://vitejs.dev/",
+        cat: "coding",
+        name: "vite"
+    },
+    {
+        link: "https://scrimba.com/bootcamp",
+        cat: "coding",
+        name: "scrimba"
+    },
+    {
+        link: "https://app.netlify.com/teams/devharsh007/overview",
+        cat: "coding",
+        name: "app.netlify"
+    },
 
     // AI-related websites
     {
