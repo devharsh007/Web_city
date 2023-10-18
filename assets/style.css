@@ -18,7 +18,7 @@ body {
     background-color: var(--color_bgc);
 }
 
-main{
+main {
     padding: 5vh 15vw;
 }
 
@@ -30,8 +30,10 @@ main{
     letter-spacing: -.012em;
     background-color: var(--color_bgc);
 }
+
 input:focus {
-     outline: none;     /* to disable the input outline */
+    outline: none;
+    /* to disable the input outline */
 }
 
 #s-bar form {
@@ -88,47 +90,8 @@ button:hover {
 
 #category-links a:hover {
     color: var(--color_acc);
+    width: min-content;
 }
 
 
 /* Form  */
-#web-add-form {
-    /* border: 1px solid #FFFDEA; */
-    position: fixed;
-    font-size: 20px;
-    right: 0;
-    margin: 5vh;
-    bottom: 0;
-}
-
-#web-add-form button {
-    /* padding: 1vh 1vw; */
-    /* margin: 1vh; */
-    outline: none;
-    font-size: 20px;
-    border: none;
-    background-color: inherit;
-}
-
-button:hover {
-    color: #003049;
-}
-
-#web-add-form input {
-    padding: 1vh 1vw;
-    margin: 1vh 0;
-    outline: none;
-}
-#addingForm{
-    width: 20vw;
-    padding: 5vh;
-}
-#closeBtn {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.hidden {
-    display: none;
-}
