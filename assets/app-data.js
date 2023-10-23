@@ -155,6 +155,57 @@ export var websites = [
         cat: "coding",
         name: "app.netlify"
     },
+    {
+        link: "https://codesandbox.io",
+        cat: "coding",
+        name: "codesandbox"
+    },
+    {
+        link: "https://stackblitz.com",
+        cat: "coding",
+        name: "stackblitz"
+    },
+    {
+        link: "https://eloquentjavascript.net/",
+        cat: "coding",
+        name: "eloquentjavascript"
+    },
+    {
+        link: "https://dev.to/",
+        cat: "coding",
+        name: "Dev.to"
+    },
+    {
+        link: "https://www.100jsprojects.com/",
+        cat: "coding",
+        name: "100jsprojects"
+    },
+    {
+        link: "https://claude.ai",
+        cat: "AI",
+        name: "Cloude AI"
+    },
+    {
+        link: "https://pomofocus.io/",
+        cat: "browse",
+        name: "PomoFocus"
+    },
+    {
+        link: "https://www.javascripttutorial.net/",
+        cat: "coding",
+        name: "javascripttutorial"
+    },
+    {
+        link: "https://threejs.org/",
+        cat: "coding",
+        name: "threejs"
+    },
+    {
+        link: "https://in.indeed.com/",
+        cat: "browse",
+        name: "indeed"
+    },
+    
 
     // AI-related websites
     {
