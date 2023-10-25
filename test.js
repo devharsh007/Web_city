@@ -496,32 +496,43 @@ var websites = [
         name: "OnlineTools"
     }
 ];
-let headContainer = document.querySelector('#head_container');
-let categaryList = document.querySelector('#categary_list');
-let mainContainer = document.querySelector('#container');
+let headContainer, categaryList, webContainer;
 
-// dateRenderer();
-// greetings();
-
-function DataRenderer() {
-    categaryList.innerHTML = categaryFilter().map((x) =>
-        `<button id=${x} onclick = "webLoader(${x})">${x}</button>`
-    ).join('');
-};
-DataRenderer();
-
-
-// Filter Categary
-function categaryFilter() {
-    return Array.from(new Set(websites.map((x) => x.cat)))
-}
-
-// websites loader function
-function webLoader(cat) {
-    console.log(cat);
-    let a = websites.filter((x) => x.cat === cat);
-}
-//! webloader() is not working !!
+function websitesLoader(cat) {
+        // console.log(cat);
+        let webArray = websites.filter((x) => x.cat === cat);
+        console.log(webArray);
+        webContainer.innerHTML = webArray.map((website) => {
+            return `
+            <a href = "${website.link}">${website.name}</a>
+            `;
+        });
+        console.log(webContainer);
+        
+    }
+document.addEventListener("DOMContentLoaded", function () {
+    
+    headContainer = document.querySelector('#head_container');
+    categaryList = document.querySelector('#categary_list');
+    webContainer = document.querySelector('#web_container');
+    
+    // dateRenderer();
+    // greetings();
+    
+    function DataRenderer() {
+        categaryList.innerHTML = categaryFilter().map((x) =>
+            `<button id=${x} onclick = "websitesLoader('${x}')">${x}</button>`
+        ).join('');
+    };
+    DataRenderer();
+    
+    
+    // Filter Categary
+    function categaryFilter() {
+        return Array.from(new Set(websites.map((x) => x.cat)))
+    }
+    
+});
 
 // function dateRenderer() {
 //     let date = new Date();
