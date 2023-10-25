@@ -500,8 +500,8 @@ let headContainer = document.querySelector('#head_container');
 let categaryList = document.querySelector('#categary_list');
 let mainContainer = document.querySelector('#container');
 
-dateRenderer();
-greetings();
+// dateRenderer();
+// greetings();
 
 function DataRenderer() {
     categaryList.innerHTML = categaryFilter().map((x) =>
@@ -515,68 +515,36 @@ DataRenderer();
 function categaryFilter() {
     return Array.from(new Set(websites.map((x) => x.cat)))
 }
+
 // websites loader function
 function webLoader(cat) {
     console.log(cat);
     let a = websites.filter((x) => x.cat === cat);
-    a.length === 0 ? console.log("A is empty") : console.log(a);
 }
 //! webloader() is not working !!
 
-/* 
+// function dateRenderer() {
+//     let date = new Date();
+//     let dateOptions = {
+//         weekday: "long",
+//         year: "numeric",
+//         month: "long",
+//         day: "numeric"
+//     };
+//     return date.toLocaleDateString("en-GB", dateOptions);
 
-*/
+// }
+// // console.log(dateRenderer());
 
-
-
-
-function dateRenderer() {
-    let date = new Date();
-    let dateOptions = {
-        weekday: "long",
-        year: "numeric",
-        month: "long",
-        day: "numeric"
-    };
-    return date.toLocaleDateString("en-GB", dateOptions);
-
-}
-// console.log(dateRenderer());
-
-function greetings() {
-    const timeOfDay = (new Date()).getHours();
-    if (timeOfDay < 6) {
-        return 'Good night';
-    } else if (timeOfDay < 12) {
-        return 'Good morning';
-    } else if (timeOfDay < 18) {
-        return 'Good afternoon';
-    } else {
-        return 'Good evening';
-    }
-}
-function greetings() {
-    const timeOfDay = (new Date()).getHours();
-    if (timeOfDay < 6) {
-        return 'Good night';
-    } else if (timeOfDay < 12) {
-        return 'Good morning';
-    } else if (timeOfDay < 18) {
-        return 'Good afternoon';
-    } else {
-        return 'Good evening';
-    }
-}
-
-// Date Function
-function dateRenderer() {
-    let date = new Date();
-    let dateOptions = {
-        weekday: "long",
-        year: "numeric",
-        month: "long",
-        day: "numeric"
-    };
-    return date.toLocaleDateString("en-GB", dateOptions);
-
-}
+// function greetings() {
+//     const timeOfDay = (new Date()).getHours();
+//     if (timeOfDay < 6) {
+//         return 'Good night';
+//     } else if (timeOfDay < 12) {
+//         return 'Good morning';
+//     } else if (timeOfDay < 18) {
+//         return 'Good afternoon';
+//     } else {
+//         return 'Good evening';
+//     }
+// }
