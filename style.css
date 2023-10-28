@@ -10,9 +10,9 @@
 }
 
 :root {
-    --color_bgc: #8bd45e;
-    --color_acc: #c61313;
-    --color_pri: #003049;
+    --color_bgc: #212121;
+    --color_acc: #e2e2e2;
+    --color_pri: #ffffff;
     --size-font: 26px;
     --style-font: 'Ubuntu', 'Foldit';
 }
@@ -22,6 +22,7 @@ body {
     font-family: var(--style-font);
     background-color: var(--color_bgc);
     padding: 20px;
+    color: var(--color_pri);
 }
 
 header h2 {
