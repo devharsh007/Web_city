@@ -47,10 +47,15 @@ h3 {
     text-transform: capitalize;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Body Custumization */
 header {
     border: 1px solid var(--color_acc);
-    padding: 0 4rem;
+    padding: 2rem 4rem;
 }
 
 main {
@@ -62,11 +67,15 @@ nav {
     border: 1px solid var(--color_acc);
 }
 
-input {
+.search-cat {
     font-size: 20px;
-    padding: 1rem;
+    margin: 1rem;
+    padding: 0.75rem 1rem;
     border: none;
-    width: 4rem;
+    width: 16rem;
+    outline: none;
+    background-color: #2c2b2b;
+    color: var(--color_acc);
 }
 
 #categary_list {
@@ -74,7 +83,7 @@ input {
     flex-direction: column;
     gap: 10px;
     width: 20vw;
-    /* border: 1px solid var(--color_acc); */
+    border: 1px solid var(--color_acc);
     padding: 1rem;
     min-height: 85vh;
 }
