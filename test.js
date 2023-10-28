@@ -12,6 +12,8 @@ function websitesLoader(cat) {
         });
         console.log(webContainer);
 }
+
+
 // DOMContentLoaded Functions
 document.addEventListener("DOMContentLoaded", function () {
     
@@ -26,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function DataRenderer() {
         categaryList.innerHTML = categaryFilter().map((x) =>
-            `<button id=${x} onclick = "websitesLoader('${x}')">${x}</button>`
+            `<button id=${x}>${x}</button>`
         ).join('');
     };
     DataRenderer(); 
@@ -35,7 +37,13 @@ document.addEventListener("DOMContentLoaded", function () {
     function categaryFilter() {
         return Array.from(new Set(websites.map((x) => x.cat)))
     }
-    
+    // Event listener for buttons
+    categaryList.addEventListener('click', (e) => {
+        if (e.target && e.target.nodeName == 'BUTTON') {
+            const category = e.target.id;
+            websitesLoader(category);
+        }
+    })
 });
 
 function dateRenderer(x) {
