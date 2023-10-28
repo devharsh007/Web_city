@@ -9,7 +9,7 @@ function websitesLoader(cat) {
             return `
             <a href = "${website.link}">${website.name}</a>
             `;
-        });
+        }).join('');
         console.log(webContainer);
 }
 
@@ -26,9 +26,10 @@ document.addEventListener("DOMContentLoaded", function () {
     dateRenderer(dateElement);
     greetings(greetElement);
 
+    //Categary Render
     function DataRenderer() {
         categaryList.innerHTML = categaryFilter().map((x) =>
-            `<button id=${x}>${x}</button>`
+            `<button class="cat_btn" id=${x}>${x}</button>`
         ).join('');
     };
     DataRenderer(); 
@@ -46,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 });
 
+// Date and Greet Functions
 function dateRenderer(x) {
     let date = new Date();
     let dateOptions = {
