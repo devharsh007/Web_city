@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
     dateElement = document.querySelector('#date_Element');
     timeElement = document.querySelector("#time_Element");
     greetElement = document.querySelector('#greet_Element');
+    const searchInput = document.querySelector('.search-cat');
     
     dateRenderer(dateElement,timeElement);
     greetings(greetElement);
@@ -46,6 +47,19 @@ document.addEventListener("DOMContentLoaded", function () {
             websitesLoader(category);
         }
     })
+
+    // Event listener for search
+    searchInput.addEventListener('input', (e) => {
+        // Converting to lowercase for case insensitive search
+        const searchValue = e.target.value.toLowerCase();
+        const resultWebsites = websites.filter((website) => website.name.toLowerCase().includes(searchValue));
+
+        webContainer.innerHTML = resultWebsites.map((website) => {
+            return `
+            <a href = "${website.link}">${website.name}</a>
+            `;
+        }).join('');
+    });
 });
 
 // Date and Greet Functions
