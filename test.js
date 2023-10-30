@@ -1,6 +1,6 @@
 import { websites } from "./app-data.js";
 
-let headContainer, categaryList, webContainer, dateElement,greetElement;
+let headContainer, categaryList, webContainer, dateElement,greetElement,timeElement;
 function websitesLoader(cat) {
         console.log(cat);
         let webArray = websites.filter((x) => x.cat === cat);
@@ -21,9 +21,10 @@ document.addEventListener("DOMContentLoaded", function () {
     categaryList = document.querySelector('#categary_list');
     webContainer = document.querySelector('#web_container');
     dateElement = document.querySelector('#date_Element');
+    timeElement = document.querySelector("#time_Element");
     greetElement = document.querySelector('#greet_Element');
     
-    dateRenderer(dateElement);
+    dateRenderer(dateElement,timeElement);
     greetings(greetElement);
 
     //Categary Render
@@ -48,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Date and Greet Functions
-function dateRenderer(x) {
+function dateRenderer(x,y) {
     let date = new Date();
     let dateOptions = {
         weekday: "long",
@@ -56,7 +57,10 @@ function dateRenderer(x) {
         month: "long",
         day: "numeric"
     };
-    return x.innerHTML = date.toLocaleDateString("en-GB", dateOptions);
+    let time = date.toLocaleTimeString();
+    x.innerHTML = date.toLocaleDateString("en-GB", dateOptions);
+    y.innerHTML = time.toUpperCase();
+    return;
 }
 
 function greetings(x) {
@@ -70,7 +74,4 @@ function greetings(x) {
     } else {
         return x.innerHTML = 'Good evening';
     }
-}
-
-function startRender() {
 }
