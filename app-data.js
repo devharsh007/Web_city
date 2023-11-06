@@ -510,6 +510,31 @@ export var websites = [
         cat: "Browse",
         name: "Up4Grabs"
     },
+    {
+        link: "https://app.leonardo.ai/",
+        cat: "AI Tools",
+        name: "leonardo.ai"
+    },
+    {
+        link: "https://www.classcentral.com/",
+        cat:  "STUDY",
+        name: "classcentral"
+    },
+    {
+        link: "https://namelix.com/",
+        cat: "TOOL",
+        name: "Namelix"
+    },
+    // {
+    //     link: 
+    //     cat:
+    //     name:
+    // },
+    // {
+    //     link: 
+    //     cat:
+    //     name:
+    // },
     // {
     //     link: 
     //     cat:
