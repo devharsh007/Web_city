@@ -494,5 +494,35 @@ export var websites = [
         link: "https://onlinetools.com/",
         cat: "tool",
         name: "OnlineTools"
-    }
+    },
+    {
+        link: "https://tailblocks.cc/",
+        cat: "design",
+        name: "TailBlocks"
+    },
+    {
+        link: "https://www.verto.sh/",
+        cat: "Browse",
+        name: "Verto"
+    },
+    {
+        link: "https://up-for-grabs.net/#/",
+        cat: "Browse",
+        name: "Up4Grabs"
+    },
+    // {
+    //     link: 
+    //     cat:
+    //     name:
+    // },
+    // {
+    //     link: 
+    //     cat:
+    //     name:
+    // },
+    // {
+    //     link: 
+    //     cat:
+    //     name:
+    // },
 ];
