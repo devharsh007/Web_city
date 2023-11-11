@@ -1,5 +1,6 @@
 import { websitesData } from "./app-data.js";
 
+// Variable Declarations:
 let headContainer,
     categaryList,
     webContainer,
@@ -9,7 +10,7 @@ let headContainer,
     timeElement;
 
 
-// DOMContentLoaded Functions
+// DOMContentLoaded Event Listener:
 document.addEventListener("DOMContentLoaded", function () {
 
     headContainer = document.querySelector('#head_container');
@@ -20,21 +21,14 @@ document.addEventListener("DOMContentLoaded", function () {
     greetElement = document.querySelector('#greet_Element');
     searchInput = document.querySelector('.search-cat');
 
+    // Date and Time Update:
     setInterval(() => {
         dateRenderer(dateElement, timeElement)
     }, 1000);
     greetings(greetElement);
     categaryFilter();
-    // // Categary Render Function
-    // function DataRenderer() {
-    //     categaryList.innerHTML = categaryFilter().map((x) =>
-    //         `<button class="cat_btn" id=${x}>${x}</button>`
-    //     ).join('');
-    // };
-    // DataRenderer();
 
-    // Filter Categary
-
+    // Category Filter Function:
     function categaryFilter() {
         let catArray = Object.keys(websitesData);
         // console.log(catArray);
@@ -80,6 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+// Websites Loader Function:
 function websitesLoader(cat) {
     let catArray = websitesData[cat];
     webContainer.innerHTML = catArray.map((website) => {
@@ -90,7 +85,7 @@ function websitesLoader(cat) {
     console.log(webContainer);
 }
 
-//? Date and Greet Functions
+// Date Renderer Function:
 function dateRenderer(x, y) {
     let date = new Date();
     let dateOptions = {
@@ -104,6 +99,8 @@ function dateRenderer(x, y) {
     y.innerHTML = time.toUpperCase();
     return;
 }
+
+// Greetings Function:
 function greetings(x) {
     const timeOfDay = (new Date()).getHours();
     if (timeOfDay < 6) {
