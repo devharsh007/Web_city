@@ -105,10 +105,10 @@ export const websitesData = {
         { link: "https://www.flaticon.com/", name: "Flaticon" },
         { link: "https://css-tricks.com/", name: "CSS-Tricks" },
         { link: "https://iconify.design/", name: "Iconify.design" },
-        { link: "https://tinywow.com/", name: "TinyWow" },
     ],
     tools: [
         { link: "https://www.ilovepdf.com/", name: "ILovePDF" },
+        { link: "https://tinywow.com/", name: "TinyWow" },
         { link: "https://onlinetools.com/", name: "OnlineTools" },
     ],
 };

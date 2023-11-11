@@ -1,39 +1,24 @@
 import { websitesData } from "./app-data.js";
 
-let headContainer,
-    categaryList,
-    webContainer,
-    dateElement,
-    greetElement,
-    timeElement;
-
-
 // DOMContentLoaded Functions
 document.addEventListener("DOMContentLoaded", function () {
 
-    headContainer = document.querySelector('#head_container');
-    categaryList = document.querySelector('#categary_list');
-    webContainer = document.querySelector('#web_container');
-    dateElement = document.querySelector('#date_Element');
-    timeElement = document.querySelector("#time_Element");
-    greetElement = document.querySelector('#greet_Element');
+    let headContainer = document.querySelector('#head_container');
+    let categaryList = document.querySelector('#categary_list');
+    let webContainer = document.querySelector('#web_container');
+    let dateElement = document.querySelector('#date_Element');
+    let timeElement = document.querySelector("#time_Element");
+    let greetElement = document.querySelector('#greet_Element');
     const searchInput = document.querySelector('.search-cat');
 
+    // Setting the clock updation 
     setInterval(() => {
         dateRenderer(dateElement, timeElement)
     }, 1000);
     greetings(greetElement);
     categaryFilter();
-    // // Categary Render Function
-    // function DataRenderer() {
-    //     categaryList.innerHTML = categaryFilter().map((x) =>
-    //         `<button class="cat_btn" id=${x}>${x}</button>`
-    //     ).join('');
-    // };
-    // DataRenderer();
 
     // Filter Categary
-
     function categaryFilter() {
         let catArray = Object.keys(websitesData);
         // console.log(catArray);
@@ -42,7 +27,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 `<button id=${i}>${i}</Button > `
         }
     }
-
 
     // Event listener for buttons
     categaryList.addEventListener('click', (e) => {
@@ -54,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Event listener for search
     searchInput.addEventListener('input', (e) => {
-        // Converting to lowercase for case-insensitive search
         const searchValue = e.target.value.toLowerCase();
 
         // Clear previous search results
@@ -62,17 +45,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Iterate over categories
         Object.values(websitesData).forEach((category) => {
-            // Filter websites within each category
             const resultWebsites = category.filter((website) =>
                 website.name.toLowerCase().includes(searchValue)
             );
 
-            // Update the web container with the search results for each category
             const htmlContent = resultWebsites.map((website) => {
                 return `<a href="${website.link}">${website.name}</a>`;
             }).join('');
 
-            // Display the search results for each category
             webContainer.innerHTML += htmlContent;
         });
     });
