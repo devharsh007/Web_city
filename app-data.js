@@ -86,6 +86,7 @@ export const websitesData = {
         { link: "https://www.globalgreyebooks.com/index.html", name: "Global Grey Ebooks" },
         { link: "https://epuborigin.com/", name: "Epub Origin" },
         { link: "https://pll.harvard.edu/", name: "harvard.edu" },
+        { link: "https://ytclass.co/", name: "YtClass" }
     ],
     softwares: [
         { link: "https://crackingpatching.com", name: "CrackingPatching" },
@@ -105,6 +106,7 @@ export const websitesData = {
         { link: "https://www.flaticon.com/", name: "Flaticon" },
         { link: "https://css-tricks.com/", name: "CSS-Tricks" },
         { link: "https://iconify.design/", name: "Iconify.design" },
+        { link: "https://app.uizard.io/prototypes", name: "App.Uizard" }
     ],
     tools: [
         { link: "https://www.ilovepdf.com/", name: "ILovePDF" },
