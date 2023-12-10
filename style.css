@@ -65,6 +65,7 @@ main {
 
 nav {
     border: 1px solid var(--color_acc);
+    max-height: 97vh;
 }
 
 .search-cat {
@@ -85,7 +86,9 @@ nav {
     width: 20vw;
     border: 1px solid var(--color_acc);
     padding: 1rem;
-    min-height: 85vh;
+    /* min-height: 85vh; */
+max-height: 100%;
+width: 100%;
 }
 
 button {
@@ -95,6 +98,7 @@ button {
     text-transform: uppercase;
     border: none;
     border-radius: 5px;
+   overflow: hidden;
 }
 
 button:hover {
