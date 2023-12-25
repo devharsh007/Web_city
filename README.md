@@ -60,5 +60,3 @@ Your contributions will help evolve Web City into an awesome hub for open educat
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Let me know if you would like me to add or modify anything in the README!
