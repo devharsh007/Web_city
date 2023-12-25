@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  --primary-color:#3490dc,#ff79c6;
+}
+body{
+background: #000;
+width: 75%;
+margin: auto;
+color: white;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed; 
+}
+.header_li{
+border: 2px solid black;
+border-radius: 15px;
+padding: 0 12px;
+background-color: var(--primary-color);
+}
+li:hover{
+  cursor: pointer;
+}
+.login{
+background-color: #202b6f;
+}
+
+
