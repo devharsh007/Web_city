@@ -1,5 +1,5 @@
 export const websitesData = {
-    coding: [
+    Coding: [
         {
             name: "Github",
             link: "https://github.com/",
