@@ -22,8 +22,6 @@ background-color: var(--primary-color);
 li:hover{
   cursor: pointer;
 }
-.login{
-background-color: #202b6f;
-}
+
 
 

@@ -12,8 +12,8 @@ export default function CategoriesPage() {
   }
   
   return (
-    <div className='border'>
-      <ul className='grid grid-cols-9'>
+    <div className='borderCategary border flex'>
+      <ul className='grid min-w-56 h-fit grid-rows-9'>
         {categories.map((category, index) => (
           <li
             onClick={() => handleCateagyEvent(category)}
@@ -27,20 +27,20 @@ export default function CategoriesPage() {
       
       <div id="websiteList">
         {selectedCategory && (
-          <ul>
+          <ul className='flex flex-wrap flex-grow'>
             {websitesData[selectedCategory]
               .map((website, index) => (
-            <li className='p-2 border flex gap-14' key={index}>
-                <a className='w-36'
+            <li className='p-2 m-2 border flex flex-wrap gap-10' key={index}>
+                <a 
                   href={website.link}
                   target='_blank'
                   rel='noopener noreferrer'
                 >
                   {website.name}
                   </a>
-                  <p>
+                  {/* <p>
                     {website.description}
-                  </p>
+                  </p> */}
                   
             </li>
             ))}

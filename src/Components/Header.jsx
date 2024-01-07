@@ -3,15 +3,13 @@ import React from 'react'
 export default function Header() {
   return (
       <div>
-          <nav className=' border-4 m-auto flex list-none justify-around p-3 text-lg'>
-              <li>Logo</li>
-              <div className='  w-2/3 flex justify-evenly'>
-              <li className='header_li'>WebCity</li>
-              <li className='header_li'>Categaries</li>
-              <li className='header_li'>About</li>
-              <li><input className='border bg-inherit p-1 outline-none' type="text" placeholder='Search' id="" /></li>
-              </div>
-              <li className=' login header_li'>Login</li>
+      <nav className=' border-4 m-auto flex list-none justify-between p-3 text-lg'>
+        <li>Logo</li>
+        <li><input className='border bg-inherit px-3 py-1 w-96 outline-none' type="text" placeholder='Search' id="" /></li>
+        <div className='flex gap-2'>
+        <li   className='px-2 py-1 bg-white text-black login hover:bg-zinc-600 hover:text-white'>Login</li>
+        <li className='px-2 py-1 bg-white text-black login hover:bg-zinc-600 hover:text-white '>Sign up</li>
+        </div>
           </nav>
     </div>
   )
