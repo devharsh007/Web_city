@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Google",
+    "link": "www.google.com",
+    "categary": "Search Engine"
+  },
+  {
+    "name": "YouTube",
+    "link": "www.youtube.com",
+    "categary": "Video Sharing"
+  },
+  {
+    "name": "Facebook",
+    "link": "www.facebook.com",
+    "categary": "Social Media"
+  },
+  {
+    "name": "Amazon",
+    "link": "www.amazon.com",
+    "categary": "E-commerce"
+  },
+  {
+    "name": "Twitter",
+    "link": "www.twitter.com",
+    "categary": "Social Media"
+  },
+  {
+    "name": "Instagram",
+    "link": "www.instagram.com",
+    "categary": "Social Media"
+  },
+  {
+    "name": "LinkedIn",
+    "link": "www.linkedin.com",
+    "categary": "Professional Networking"
+  },
+  {
+    "name": "Pinterest",
+    "link": "www.pinterest.com",
+    "categary": "Social Media"
+  },
+  {
+    "name": "Wikipedia",
+    "link": "www.wikipedia.org",
+    "categary": "Online Encyclopedia"
+  },
+  {
+    "name": "Netflix",
+    "link": "www.netflix.com",
+    "categary": "Streaming"
+  },
+  {
+    "name": "Ebay",
+    "link": "www.ebay.com",
+    "categary": "E-commerce"
+  },
+  {
+    "name": "Reddit",
+    "link": "www.reddit.com",
+    "categary": "Social News Aggregation"
+  },
+  {
+    "name": "Twitch",
+    "link": "www.twitch.tv",
+    "categary": "Video Streaming"
+  },
+  {
+    "name": "Microsoft",
+    "link": "www.microsoft.com",
+    "categary": "Technology"
+  },
+  {
+    "name": "Yahoo",
+    "link": "www.yahoo.com",
+    "categary": "Search Engine"
+  },
+  {
+    "name": "WhatsApp",
+    "link": "www.whatsapp.com",
+    "categary": "Messaging"
+  },
+  {
+    "name": "Tumblr",
+    "link": "www.tumblr.com",
+    "categary": "Microblogging"
+  },
+  {
+    "name": "Snapchat",
+    "link": "www.snapchat.com",
+    "categary": "Photo Sharing"
+  },
+  {
+    "name": "Yelp",
+    "link": "www.yelp.com",
+    "categary": "Business Reviews"
+  },
+  {
+    "name": "Quora",
+    "link": "www.quora.com",
+    "categary": "Question and Answer"
+  },
+  {
+    "name": "Adobe",
+    "link": "www.adobe.com",
+    "categary": "Software"
+  },
+  {
+    "name": "Dropbox",
+    "link": "www.dropbox.com",
+    "categary": "Cloud Storage"
+  },
+  {
+    "name": "Spotify",
+    "link": "www.spotify.com",
+    "categary": "Music Streaming"
+  },
+  {
+    "name": "Apple",
+    "link": "www.apple.com",
+    "categary": "Technology"
+  },
+  {
+    "name": "CNN",
+    "link": "www.cnn.com",
+    "categary": "News"
+  },
+  {
+    "name": "BBC",
+    "link": "www.bbc.co.uk",
+    "categary": "News"
+  },
+  {
+    "name": "Etsy",
+    "link": "www.etsy.com",
+    "categary": "E-commerce"
+  },
+  {
+    "name": "IMDb",
+    "link": "www.imdb.com",
+    "categary": "Movie Database"
+  },
+  {
+    "name": "PayPal",
+    "link": "www.paypal.com",
+    "categary": "Payment"
+  },
+  {
+    "name": "Alibaba",
+    "link": "www.alibaba.com",
+    "categary": "E-commerce"
+  },
+  {
+    "name": "WordPress",
+    "link": "www.wordpress.com",
+    "categary": "Website Builder"
+  },
+  {
+    "name": "Stack Overflow",
+    "link": "www.stackoverflow.com",
+    "categary": "Question and Answer"
+  },
+  {
+    "name": "Booking.com",
+    "link": "www.booking.com",
+    "categary": "Travel"
+  },
+  {
+    "name": "Craigslist",
+    "link": "www.craigslist.org",
+    "categary": "Classifieds"
+  },
+  {
+    "name": "BBC News",
+    "link": "www.bbc.co.uk/news",
+    "categary": "News"
+  },
+  {
+    "name": "ESPN",
+    "link": "www.espn.com",
+    "categary": "Sports"
+  },
+  {
+    "name": "The Guardian",
+    "link": "www.theguardian.com",
+    "categary": "News"
+  },
+  {
+    "name": "Walmart",
+    "link": "www.walmart.com",
+    "categary": "Retail"
+  },
+  {
+    "name": "Hulu",
+    "link": "www.hulu.com",
+    "categary": "Streaming"
+  },
+  {
+    "name": "NBA",
+    "link": "www.nba.com",
+    "categary": "Sports"
+  },
+  {
+    "name": "Pinterest UK",
+    "link": "www.pinterest.co.uk",
+    "categary": "Social Media"
+  },
+  {
+    "name": "Macy's",
+    "link": "www.macys.com",
+    "categary": "Retail"
+  },
+  {
+    "name": "Target",
+    "link": "www.target.com",
+    "categary": "Retail"
+  },
+  {
+    "name": "Home Depot",
+    "link": "www.homedepot.com",
+    "categary": "Retail"
+  },
+  {
+    "name": "Zillow",
+    "link": "www.zillow.com",
+    "categary": "Real Estate"
+  },
+  {
+    "name": "BBC Sport",
+    "link": "www.bbc.co.uk/sport",
+    "categary": "Sports"
+  },
+  {
+    "name": "CNN International",
+    "link": "edition.cnn.com",
+    "categary": "News"
+  },
+  {
+    "name": "TikTok",
+    "link": "www.tiktok.com",
+    "categary": "Social Media"
+  },
+  {
+    "name": "Vimeo",
+    "link": "www.vimeo.com",
+    "categary": "Video Sharing"
+  },
+  {
+    "name": "GitHub",
+    "link": "www.github.com",
+    "categary": "Software Development"
+  }
+]
