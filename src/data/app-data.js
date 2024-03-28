@@ -1,12 +1,6 @@
 export const websitesData = {
     Coding: [
         {
-            name: "Github",
-            link: "https://github.com/",
-            category: "Coding",
-            description: "A platform for version control and collaboration on software projects."
-        },
-        {
             name: "CodeWars",
             link: "https://www.codewars.com/",
             category: "Coding",
