@@ -1,14 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 :root{
   --primary-color:#3490dc,#ff79c6;
 }
 body{
 background: #000;
-width: 75%;
-margin: auto;
+/* width: 75%; */
+margin: 1rem;
 color: white;
+border:  1px solid white;
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed; 
